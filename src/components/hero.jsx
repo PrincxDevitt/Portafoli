@@ -24,11 +24,21 @@ const Hero = () => {
            garantizando que cada proyecto sea accesible, rápido y adaptado a las necesidades del usuario.
         </p>
         
-        {/* Botón Principal */}
-        <button 
-          className="bg-yellow-300 text-black py-2 px-6 rounded-md font-semibold hover:bg-yellow-400 transition duration-300 mt-6 border-2 border-yellow-400">
-          Contact Me
-        </button>
+        {/* Redes sociales */}
+    <div className="mt-6 flex space-x-6 ">
+        <a href="https://www.facebook.com" target="_blank" className="text-cyan-400 hover:text-yellow-300 transition duration-300" title="Facebook">
+            <BsFacebook className="h-6 w-6" />
+        </a>
+        <a href="https://www.twitter.com" target="_blank" className="text-cyan-400 hover:text-yellow-300 transition duration-300" title="Twitter">
+            <BsTwitter className="h-6 w-6" />
+        </a>
+        <a href="https://www.instagram.com" target="_blank" className="text-cyan-400 hover:text-yellow-300 transition duration-300" title="Instagram">
+            <BsInstagram className="h-6 w-6" />
+        </a>
+
+        {/* Poner icon de gmail,Linkeding */}
+        
+    </div>
       </div>
 
       {/* Imagen del Hero */}
@@ -41,21 +51,7 @@ const Hero = () => {
           className='rounded-full border-8 border-cyan-400 mx-auto w-[500px] h-[500px] object-cover'
         />
 
-     {/* Redes sociales */}
-    <div className="mt-6 flex space-x-6 justify-center">
-        <a href="https://www.facebook.com" target="_blank" className="text-cyan-400 hover:text-yellow-300 transition duration-300" title="Facebook">
-            <BsFacebook className="h-6 w-6" />
-        </a>
-        <a href="https://www.twitter.com" target="_blank" className="text-cyan-400 hover:text-yellow-300 transition duration-300" title="Twitter">
-            <BsTwitter className="h-6 w-6" />
-        </a>
-        <a href="https://www.instagram.com" target="_blank" className="text-cyan-400 hover:text-yellow-300 transition duration-300" title="Instagram">
-            <BsInstagram className="h-6 w-6" />
-        </a>
-        <a href="https://www.pinterest.com" target="_blank" className="text-cyan-400 hover:text-yellow-300 transition duration-300" title="Pinterest">
-            <BsPinterest className="h-6 w-6" />
-        </a>
-    </div>
+     
       </div>
 
       

@@ -10,6 +10,7 @@ const main = () => {
         <Hero/>
         <Project/>
         <Footer/>
+
    </div>
   )
 }

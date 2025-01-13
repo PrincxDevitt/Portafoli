@@ -1,5 +1,4 @@
-import { BsFacebook, BsTwitter, BsInstagram, BsPinterest } from 'react-icons/bs';
-
+import { BsFacebook, BsTwitter, BsInstagram, BsPinterest, BsGithub } from 'react-icons/bs';
 
 const Footer = () => {
   return (
@@ -34,7 +33,15 @@ const Footer = () => {
           >
             <BsInstagram className="h-6 w-6" />
           </a>
-          
+          <a
+            href="https://www.github.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan-400 hover:text-yellow-300 transition duration-300"
+            title="GitHub"
+          >
+            <BsGithub className="h-6 w-6" />
+          </a>
         </div>
 
         {/* Texto del Footer */}
@@ -52,3 +59,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

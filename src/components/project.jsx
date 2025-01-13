@@ -1,11 +1,15 @@
 import HeroPic from "../assets/Perfil.jpg";
+import HeroPic2 from "../assets/Perfil2.jpg";
+import Qualification from "../assets/Qualification.jpg"
+import Projects from "../assets/Project.jpg"
+import Contact from "../assets/Contact.jpg"
 const Project = () => {
   return (
     <section className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-10 bg-gradient-to-br from-gray-900 to-gray-800 text-gray-400">
       {/* About Me */}
       <div className="relative">
         <img 
-          src={HeroPic}
+          src={HeroPic2}
           alt="About Me" 
           className="w-full h-[300px] object-cover rounded-md border-4 border-cyan-400" 
         />
@@ -18,7 +22,7 @@ const Project = () => {
       {/* Qualification */}
       <div className="relative">
         <img 
-          src={HeroPic}
+          src={Qualification}
           alt="Qualification" 
           className="w-full h-[300px] object-cover rounded-md border-4 border-cyan-400" 
         />
@@ -31,7 +35,7 @@ const Project = () => {
       {/* Projects */}
       <div className="relative">
         <img 
-          src={HeroPic}
+          src={Projects}
           alt="Projects" 
           className="w-full h-[300px] object-cover rounded-md border-4 border-cyan-400" 
         />
@@ -44,7 +48,7 @@ const Project = () => {
       {/* Contact */}
       <div className="relative">
         <img 
-          src={HeroPic}
+          src={Contact}
           alt="Contact" 
           className="w-full h-[300px] object-cover rounded-md border-4 border-cyan-400" 
         />

@@ -2,6 +2,8 @@ import Nav from "./nav"
 import Hero from "./hero"
 import Project from "./project"
 import Footer from "./footer"
+import Webs from "./webs"
+
 
 const main = () => {
   return (
@@ -9,6 +11,7 @@ const main = () => {
         <Nav/>
         <Hero/>
         <Project/>
+        <Webs/>
         <Footer/>
 
    </div>

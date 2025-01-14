@@ -3,6 +3,7 @@ import Hero from "./hero"
 import Project from "./project"
 import Footer from "./footer"
 import Webs from "./webs"
+import Qualification from "./qualification"
 
 
 const main = () => {
@@ -11,6 +12,7 @@ const main = () => {
         <Nav/>
         <Hero/>
         <Project/>
+        <Qualification/>
         <Webs/>
         <Footer/>
 
